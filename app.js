@@ -1,15 +1,11 @@
-// const amount = 12
+const john = "john"
+const peter = "peter"
 
-// if(amount <10){
-//     console.log("Small number")
-// }else{
-//     console.log("Large number")
-// }
 
-// console.log("Hey it's my first node app!!!")
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`)
+}
 
-console.log(_direname)
-setInterval(()=>{
-    console.log("Hello World")
-
-}, 5);
+sayHi('Suman')
+sayHi('Avack')
+sayHi('Karan')
